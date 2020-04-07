@@ -3,84 +3,84 @@
 ==================================== */
 
 .navbar-header {
-    position: relative;
+  position: relative;
 }
 
 #mobile-nav-open-btn {
-    font-size: 30px;
-    color: #4285F4;
-    cursor: pointer;
-    z-index: 2;
-    position: absolute;
-    right: 0;
-    top: 6px;
-    /* hide mobile nav open btn */
-    display: none;
+  font-size: 30px;
+  color: #4285f4;
+  cursor: pointer;
+  z-index: 2;
+  position: absolute;
+  right: 0;
+  top: 6px;
+  /* hide mobile nav open btn */
+  display: none;
 }
 
 #mobile-nav {
-    /* By Default, mobile nav will be hidden with height 0% */
-    height: 0%;
-    width: 100%;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: 3;
-    background-color: rgba(225, 225, 225, .9);
-    -webkit-transition: all 300ms linear;
-    transition: all 300ms linear;
-    overflow-y: hidden;
+  /* By Default, mobile nav will be hidden with height 0% */
+  height: 0%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  background-color: rgba(225, 225, 225, 0.9);
+  -webkit-transition: all 300ms linear;
+  transition: all 300ms linear;
+  overflow-y: hidden;
 }
 
 #mobile-nav-close-btn {
-    font-family: "Raleway", sans-serif;
-    font-size: 70px;
-    color: #212226;
-    font-weight: 400;
-    cursor: pointer;
-    position: absolute;
-    top: -9px;
-    right: 13px;
-    -webkit-transition: .3s;
-    transition: .3s;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  color: #212226;
+  font-weight: 400;
+  cursor: pointer;
+  position: absolute;
+  top: -9px;
+  right: 13px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #mobile-nav-content {
-    text-align: center;
-    width: 100%;
-    margin-top: 30px;
-    position: relative;
-    top: 10%;
+  text-align: center;
+  width: 100%;
+  margin-top: 30px;
+  position: relative;
+  top: 10%;
 }
 
 #mobile-nav ul li {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 #mobile-nav a {
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    color: #212226;
-    font-weight: 400;
-    text-transform: uppercase;
-    display: inline;
-    -webkit-transition: .3s;
-    transition: .3s;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  color: #212226;
+  font-weight: 400;
+  text-transform: uppercase;
+  display: inline;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 
 #mobile-nav a:hover,
 #mobile-nav a:focus,
 #mobile-nav-close-btn:hover,
 #mobile-nav-close-btn:focus {
-    color: #4285F4;
-    background: none;
+  color: #4285f4;
+  background: none;
 }
 
 /* Mobile Nav scroll spy active state */
 
 .white-nav-top #mobile-nav ul.nav > li.active > a {
-    color: #4285F4;
-    font-weight: 500;
+  color: #4285f4;
+  font-weight: 500;
 }
 
 /* =================================
@@ -88,352 +88,345 @@
 ==================================== */
 /* Large Devices (Desktops & Laptops) */
 @media (min-width: 1200px) and (max-width: 1299px) {
-
-    /* Navigation */
-    .site-nav-wrapper {
-        padding: 0 20px;
-    }
+  /* Navigation */
+  .site-nav-wrapper {
+    padding: 0 20px;
+  }
 }
 
 /* Medium Devices (Landscape Tablets & Medium Desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
+  /* Navigation */
+  .site-nav-wrapper {
+    padding: 0;
+  }
 
-    /* Navigation */
-    .site-nav-wrapper {
-        padding: 0;
-    }
+  /* Generic */
+  .vertical-heading h2 {
+    font-size: 29px;
+  }
 
-    /* Generic */
-    .vertical-heading h2 {
-        font-size: 29px;
-    }
+  .vertical-heading h5 {
+    font-size: 18px;
+  }
 
-    .vertical-heading h5 {
-        font-size: 18px;
-    }
+  /* Sessions 02 */
+  #sessions-tabs .tab-bg {
+    padding: 16px 30px;
+    min-height: 400px;
+  }
 
-    /* Sessions 02 */
-    #sessions-tabs .tab-bg {
-        padding: 16px 30px;
-        min-height: 400px;
-    }
-
-    .session-tab p {
-        line-height: 20px;
-    }
+  .session-tab p {
+    line-height: 20px;
+  }
 }
 
 /* Small Devices (Portrait Tablets & Small Desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
+  /* Navigation */
+  .site-nav-wrapper {
+    padding: 0;
+  }
 
-    /* Navigation */
-    .site-nav-wrapper {
-        padding: 0;
-    }
+  /* Home */
+  #home-heading h1 {
+    font-size: 41px;
+  }
 
-    /* Home */
-    #home-heading h1 {
-        font-size: 41px;
-    }
+  #home-text p {
+    font-size: 13px;
+  }
 
-    #home-text p {
-        font-size: 13px;
-    }
+  /* Generic */
+  .btn-general {
+    padding: 8px 35px 8px 35px;
+    font-size: 10px;
+  }
 
-    /* Generic */
-    .btn-general {
-        padding: 8px 35px 8px 35px;
-        font-size: 10px;
-    }
+  /* Generic */
+  .vertical-heading h2 {
+    font-size: 29px;
+  }
 
-    /* Generic */
-    .vertical-heading h2 {
-        font-size: 29px;
-    }
+  .vertical-heading h5 {
+    font-size: 18px;
+  }
 
-    .vertical-heading h5 {
-        font-size: 18px;
-    }
+  /* Tech statement */
+  #tech-statement h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-    /* Tech statement */
-    #tech-statement h3 {
-        font-size: 20px;
-        line-height: 30px;
-    }
+  /* Sessions 02 */
+  .r-tabs-accordion-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
-    /* Sessions 02 */
-    .r-tabs-accordion-title {
-        text-align: center;
-        margin-bottom: 10px;
-    }
+  .r-tabs-accordion-title a {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+  }
 
-    .r-tabs-accordion-title a {
-        font-family: "Raleway", sans-serif;
-        font-size: 13px;
-        color: #212226;
-        text-transform: uppercase;
-        font-weight: 400;
-        padding: 0;
-        text-decoration: none;
-    }
+  /* Tab active state */
+  .r-tabs-accordion-title.r-tabs-state-active a {
+    color: #4285f4;
+    font-weight: 700;
+    border-bottom: 3px solid #4285f4;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+  }
 
-    /* Tab active state */
-    .r-tabs-accordion-title.r-tabs-state-active a {
-        color: #4285F4;
-        font-weight: 700;
-        border-bottom: 3px solid #4285F4;
-        padding-bottom: 5px;
-        -webkit-transition: border-color 300ms linear;
-        transition: border-color 300ms linear;
-    }
+  /* Blog */
+  .blog-post .post-meta p {
+    line-height: 14px;
+  }
 
+  /* Contact */
+  ul.office-details li {
+    margin-right: 15px;
+  }
 
-    /* Blog */
-    .blog-post .post-meta p {
-        line-height: 14px;
-    }
-
-    /* Contact */
-    ul.office-details li {
-        margin-right: 15px;
-    }
-
-    ul.office-details li i {
-        width: 25px;
-    }
+  ul.office-details li i {
+    width: 25px;
+  }
 }
 
 /* Extra Small Devices (LandScape Phones & Portrait Tablets) */
 @media (max-width: 767px) {
+  /* Navigation */
+  .navbar {
+    padding: 20px 0;
+  }
 
+  .site-nav-wrapper,
+  .white-nav-top {
+    padding: 0;
+  }
 
-    /* Navigation */
-    .navbar {
-        padding: 20px 0;
-    }
+  /* show mobile nav open btn */
+  #mobile-nav-open-btn {
+    display: block;
+  }
 
-    .site-nav-wrapper,
-    .white-nav-top {
-        padding: 0;
-    }
+  /* Home */
+  #home-heading h2 {
+    font-size: 27px;
+  }
 
-    /* show mobile nav open btn */
-    #mobile-nav-open-btn {
-        display: block;
-    }
+  #home-text p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 8px 5px 30px 2px;
+  }
 
-    /* Home */
-    #home-heading h1 {
-        font-size: 22px;
-    }
+  /* Generic */
+  .btn-general {
+    padding: 8px 25px 6px 35px;
+    font-size: 10px;
+  }
 
-    #home-text p {
-        font-size: 13px;
-        line-height: 18px;
-        margin: 8px 2px 30px 2px;
-    }
+  /* About 01 */
+  /* Large Content Box */
+  .content-box-lg {
+    padding: 90px 0;
+  }
 
-    /* Generic */
-    .btn-general {
-        padding: 8px 25px 6px 35px;
-        font-size: 10px;
-    }
+  /* Vertical heading */
+  .vertical-heading {
+    text-align: center;
+  }
 
-    /* About 01 */
-    /* Large Content Box */
-    .content-box-lg {
-        padding: 90px 0;
-    }
+  .vertical-heading h5 {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    display: block;
+    position: static;
+    margin-bottom: 15px;
+  }
 
-    /* Vertical heading */
-    .vertical-heading {
-        text-align: center;
-    }
+  .vertical-heading h2 {
+    font-size: 29px;
+    line-height: normal;
+    margin: 0;
+  }
 
-    .vertical-heading h5 {
-        -webkit-transform: rotate(0deg);
-        transform: rotate(0deg);
-        display: block;
-        position: static;
-        margin-bottom: 15px;
-    }
+  #about-left {
+    margin-bottom: 50px;
+  }
 
-    .vertical-heading h2 {
-        font-size: 29px;
-        line-height: normal;
-        margin: 0;
-    }
+  #about-right {
+    text-align: center;
+  }
 
-    #about-left {
-        margin-bottom: 50px;
-    }
+  /* About 02 */
+  /* Medium Content Box */
+  .content-box-md {
+    padding: 80px 0;
+  }
 
-    #about-right {
-        text-align: center;
-    }
+  .about-item {
+    padding: 55px 30px;
+    margin-bottom: 35px;
+  }
 
-    /* About 02 */
-    /* Medium Content Box */
-    .content-box-md {
-        padding: 80px 0;
-    }
+  .about-item i {
+    font-size: 30px;
+  }
 
-    .about-item {
-        padding: 55px 30px;
-        margin-bottom: 35px;
-    }
+  .about-item h3 {
+    font-size: 18px;
+  }
 
-    .about-item i {
-        font-size: 30px;
-    }
+  /* Team */
+  #team-left .vertical-heading {
+    min-height: 130px;
+  }
 
-    .about-item h3 {
-        font-size: 18px;
-    }
+  /* Tech Statement */
+  #tech-statement h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 
-    /* Team */
-    #team-left .vertical-heading {
-        min-height: 130px;
-    }
+  /* Sessions 01 */
 
-    /* Tech Statement */
-    #tech-statement h3 {
-        font-size: 20px;
-        line-height: 30px;
-    }
+  /* Horizontal heading */
+  .horizontal-heading {
+    margin-bottom: 40px;
+  }
 
-    /* Sessions 01 */
+  .horizontal-heading h2 {
+    font-size: 30px;
+  }
 
-    /* Horizontal heading */
-    .horizontal-heading {
-        margin-bottom: 40px;
-    }
+  #sessions-01 img {
+    margin: 35px 0;
+  }
 
-    .horizontal-heading h2 {
-        font-size: 30px;
-    }
+  .session,
+  .session .icon {
+    text-align: center;
+  }
 
-    #sessions-01 img {
-        margin: 35px 0;
-    }
+  .session h4 {
+    font-size: 18px;
+  }
 
-    .session,
-    .session .icon {
-        text-align: center;
-    }
+  /* Sessions 02 */
+  .r-tabs-accordion-title {
+    text-align: center;
+    margin-bottom: 10px;
+  }
 
-    .session h4 {
-        font-size: 18px;
-    }
+  .r-tabs-accordion-title a {
+    font-family: "Raleway", sans-serif;
+    font-size: 13px;
+    color: #212226;
+    text-transform: uppercase;
+    font-weight: 400;
+    padding: 0;
+    text-decoration: none;
+  }
 
-    /* Sessions 02 */
-    .r-tabs-accordion-title {
-        text-align: center;
-        margin-bottom: 10px;
-    }
+  /* Tab active state */
+  .r-tabs-accordion-title.r-tabs-state-active a {
+    color: #4285f4;
+    font-weight: 700;
+    border-bottom: 3px solid #4285f4;
+    padding-bottom: 5px;
+    -webkit-transition: border-color 300ms linear;
+    transition: border-color 300ms linear;
+  }
 
-    .r-tabs-accordion-title a {
-        font-family: "Raleway", sans-serif;
-        font-size: 13px;
-        color: #212226;
-        text-transform: uppercase;
-        font-weight: 400;
-        padding: 0;
-        text-decoration: none;
-    }
+  #sessions-tabs .tab-bg {
+    text-align: center;
+    padding: 40px 30px;
+  }
 
-    /* Tab active state */
-    .r-tabs-accordion-title.r-tabs-state-active a {
-        color: #4285F4;
-        font-weight: 700;
-        border-bottom: 3px solid #4285F4;
-        padding-bottom: 5px;
-        -webkit-transition: border-color 300ms linear;
-        transition: border-color 300ms linear;
-    }
+  #sessions-tabs h2 {
+    font-size: 40px;
+  }
 
-    #sessions-tabs .tab-bg {
-        text-align: center;
-        padding: 40px 30px;
-    }
+  #sessions-tabs h3 {
+    font-size: 28px;
+  }
 
-    #sessions-tabs h2 {
-        font-size: 40px;
-    }
+  /* Gallery */
+  #gallery {
+    padding-bottom: 0;
+  }
 
-    #sessions-tabs h3 {
-        font-size: 28px;
-    }
+  /* Blog */
+  #blog-left {
+    text-align: center;
+    margin-bottom: 30px;
+  }
 
-    /* Gallery */
-    #gallery {
-        padding-bottom: 0;
-    }
+  .blog-post {
+    margin-bottom: 25px;
+  }
 
-    /* Blog */
-    #blog-left {
-        text-align: center;
-        margin-bottom: 30px;
-    }
+  /* Contact */
+  #contact-left {
+    text-align: center;
+  }
 
-    .blog-post {
-        margin-bottom: 25px;
-    }
+  .chapter {
+    margin-bottom: 40px;
+  }
 
-    /* Contact */
-    #contact-left {
-        text-align: center;
-    }
+  ul.chapter-details li {
+    display: block;
+    margin-top: 25px;
+  }
 
-    .chapter {
-        margin-bottom: 40px;
-    }
+  ul.chapter-details li i {
+    width: auto;
+    display: block;
+    margin-bottom: 3px;
+  }
 
-    ul.chapter-details li {
-        display: block;
-        margin-top: 25px;
-    }
-
-    ul.chapter-details li i {
-        width: auto;
-        display: block;
-        margin-bottom: 3px;
-    }
-
-    ul.social-list {
-        margin-bottom: 40px;
-    }
+  ul.social-list {
+    margin-bottom: 40px;
+  }
 }
 
 /* Extra Small Devices (Portrait Phones &  Smaller Devices) */
 @media (max-width: 480px) {
+  /* Preloader */
+  #preloader {
+    background-color: #fff;
+    position: fixed;
+    height: auto;
+    width: auto;
+  }
 
-    /* Preloader */
-    #preloader {
-        background-color: #fff;
-        position: fixed;
-        height: auto;
-        width: auto;
-    }
+  #status {
+    height: auto;
+    width: 80vw !important;
+  }
 
-    #status {
-        height: auto;
-        width: 80vw !important;
-    }
+  /* Home */
+  #home-heading h1 {
+    font-size: 18px;
+  }
 
-    /* Home */
-    #home-heading h1 {
-        font-size: 18px;
-    }
+  #home-text p {
+    font-size: 11px;
+    line-height: 16px;
+    margin: 8px 10px 25px 10px;
+  }
 
-    #home-text p {
-        font-size: 11px;
-        line-height: 16px;
-        margin: 8px 10px 25px 10px;
-    }
-
-    /* Generic */
-    .vertical-heading h2 {
-        font-size: 22px;
-    }
+  /* Generic */
+  .vertical-heading h2 {
+    font-size: 22px;
+  }
 }
