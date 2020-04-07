@@ -217,14 +217,14 @@
   }
 
   /* Home */
-  #home-heading h2 {
-    font-size: 27px;
+  #home-heading h1 {
+    font-size: 22px;
   }
 
   #home-text p {
-    font-size: 18px;
+    font-size: 13px;
     line-height: 18px;
-    margin: 8px 5px 30px 2px;
+    margin: 8px 2px 30px 2px;
   }
 
   /* Generic */
@@ -415,13 +415,13 @@
   }
 
   /* Home */
-  #home-heading h1 {
-    font-size: 18px;
+  #home-heading h2 {
+    font-size: 25px;
   }
 
-  #home-text p {
-    font-size: 11px;
-    line-height: 16px;
+  .text_2 {
+    font-size: 18px;
+    line-height: 20px;
     margin: 8px 10px 25px 10px;
   }
 
