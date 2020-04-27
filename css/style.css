@@ -30,7 +30,7 @@ section {
   background: #fff;
   overflow: hidden;
 }
-#preloader {
+/*#preloader {
   background-color: #fff;
   position: fixed;
   top: 0;
@@ -47,7 +47,7 @@ section {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-}
+}*/
 #status {
   height: auto;
   width: 30vw;
