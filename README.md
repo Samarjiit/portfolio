@@ -1,2 +1,2 @@
 # portfolio
-created my portfolio by using html,css and javascript
+created my portfolio website by using html,css and javascript
